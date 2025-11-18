@@ -1,0 +1,203 @@
+body {
+    margin: 0%;
+    padding: 0px;
+    background-color: darkgray;
+    background-image: url(Socio.jpeg);
+    background-size: 1250px, 100px;
+    background-repeat: no-repeat;
+}
+img{
+    width: 400px;
+    padding: 40px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+main {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: gray;
+}
+.about-me{
+
+    flex: 1;
+}
+.Contact{
+    text-align: center;
+}
+
+h1 {
+    color: rgb(13, 10, 10);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    text-indent: 30px;
+    padding: 10px;
+    text-decoration: underline;
+    background-color: gray;
+    margin: auto;
+}
+
+h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+    color: black;}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+
+    transition: transform 0.3s;
+}
+.container div {
+    height: 50px;
+    width: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.bigger {
+    transform: scale(2);
+}
+.Home, .About, .Projects, .Contact_2, .Resume {
+    background-color: lightgray;
+    border-radius: .5em;
+}
+.project1 h2, .project2 h2, .project3 h2, .project4 h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+.project1 p, .project2 p, .project3 p, .project4 p {
+    font-size: 20px;
+}
+.project_flexbox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.project_flexbox div {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+}
+.container-about-me {
+    display: grid;
+    font-size: 30px;
+    grid-template-rows: 100px 300px 100px;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    border-radius: .5em;
+    border: 10px solid black;
+    margin: auto;
+}
+.container-about-me h2, .container-about-me p {
+    grid-column: 2 / -1;
+}
+.container-about-me img {
+    grid-column: 1 / 2;
+    width: 100%;
+    height: 500;
+}
+.container-about-me p {
+    align-self: right;
+    font-size: 1.
+    em;
+    padding-left: 100px;
+}
+.container-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    background-color: gray;
+    padding: 20px;
+}
+.container-resume img{
+    height: 1000px;
+    width: 800px;
+    padding-left: 200px;
+    margin: auto;
+}
+.contact-body {
+    background-color: gray;
+    margin: 0%;
+    padding: 0px;
+    font-size: 20px;
+}
+.contact-info h2 {
+    color: white;
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.contact-info {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    border: 4px solid white;
+    padding: 20px;
+    margin: 30px;
+}
+.social-media h2 {
+    color: white;
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.social-media {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    border: 4px solid white;
+    padding: 20px;
+    margin: 20px;
+}
+.contact-form h2 {
+    color: white;
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.contact-form {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    border: 4px solid white;
+    padding: 10px;
+    margin: 20px;
+}
